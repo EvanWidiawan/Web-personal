@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;    
+}
+
+
+.navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.navbar-container .logo img {
+    max-width: 150px;
+    margin-right: 300px;
+}
+
+.navbar-container .nav-list ul {
+    padding-left: 20PX;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+  
+.navbar-container .nav-list li {
+    list-style-type: none;
+}
+
+   
+.navbar-container .nav-list li a {
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: black;
+    transition: all 0.2 ease-in-out;
+}
+   
+.navbar-container .nav-list li:hover a {
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+main .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    padding-bottom: 200px;
+}
+
+main .content .content-description {
+    flex: 1;
+}
+
+main .content .content-description .title {
+    margin-block: 1rem;
+    font-size: 3.5rem;
+}
+
+main .content .content-description p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+main .content .content-description button { 
+padding: 0.8rem 2.5rem; 
+border: 3px solid transparent; 
+border-radius: 999px; 
+margin-block-start: 1rem; 
+background-color: black;
+font-family: 'Quicksand', sans-serif; 
+text-transform: uppercase; 
+font-size: 1rem; 
+font-weight: 700; 
+color: white; 
+cursor: pointer; 
+transition: all 0.15s ease-in; 
+} 
+
+main .content .content-description button:hover { 
+border: 3px solid #2d3e50; 
+background-color: transparent; 
+color: #2d3e50; 
+transform: scale(1.1);
+} 
+
+main .content .content-image { 
+flex: 1; 
+display: flex; 
+} 
+
+main .content .content-image img { 
+width: 400px; 
+min-width: 250px; 
+margin: auto;
+padding-bottom: 125px;
+margin-right: 50px;
+} 
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;   
+}
+
+main aside .social-media {
+    height: 100%;
+    display: flex;
+}
+
+main aside .social-media ul {
+    padding: 1.5rem 1rem; 
+    border-top-left-radius: 12px; 
+    border-bottom-left-radius: 12px; 
+    margin: auto; 
+    background-color: black; 
+    display: flex; 
+    flex-flow: column nowrap; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 1.5rem; 
+}
+
+main aside .social-media li {
+    list-style-type: none;
+}
+
+main aside .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+main aside .social-media li a:hover {
+    color:  gray;
+}
+
+.Messi {
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    background-color: black; 
+    color: white;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.Messi img {
+    float: left;
+    margin: 20px;
+    max-width: 320px;
+    border-radius: 10px;
+    color: black;
+}
+
+.Ronaldo {
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    background-color: black; 
+    color: white;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Ronaldo h2 {
+    text-align: start;
+}
+
+.Ronaldo img {
+    float: left;
+    margin: 20px;
+    max-width: 320px;
+    border-radius: 10px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
